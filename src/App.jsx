@@ -97,6 +97,7 @@ const checkDomain =
         </div>
         <Map coords={coords} locationText={location}/>       
         </div>
+        <Analytics />
       </div>
   )
 }
