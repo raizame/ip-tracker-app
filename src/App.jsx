@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Analytics } from "@vercel/analytics/react"
 import './App.css'
 import subBtn from '/src/assets/ip-address-tracker-master/images/icon-arrow.svg'
 import Map from './Map';
