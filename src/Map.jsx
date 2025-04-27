@@ -1,6 +1,7 @@
 import { MapContainer, TileLayer, useMap, Marker, Popup } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import {useEffect} from 'react'
+import markerIcon from './markerIcon';
 
 function FlyToFn({ center, zoom = 8 }) {
   const map = useMap();
@@ -31,7 +32,7 @@ const Map = ({ coords, locationText }) => {
         
         <FlyToFn center={center} zoom={11} />
 
-        <Marker position={center}>
+        <Marker icon={markerIcon} position={center}>
           <Popup>{locationText}</Popup>
         </Marker>
       </MapContainer>

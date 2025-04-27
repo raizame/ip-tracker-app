@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import subBtn from '/src/assets/ip-address-tracker-master/images/icon-arrow.svg'
-import Map from './map';
+import Map from './Map';
 
 function App() {
 
